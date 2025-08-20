@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: './', // 👈 important for Vercel/GitHub Pages
+  base: './', // 👈 fixes white screen on Vercel/GitHub Pages
 })
